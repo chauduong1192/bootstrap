@@ -17,7 +17,7 @@ Cards are built with as little markup and styles as possible, but still manage t
 Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they'll naturally fill the full width of its parent element. This is easily customized with our various [sizing options](#sizing).
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   {{< placeholder width="100%" height="180" class="card-img-top" text="Image cap" >}}
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -50,7 +50,7 @@ Card titles are used by adding `.card-title` to a `<h*>` tag. In the same way, l
 Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-title` and the `.card-subtitle` items are placed in a `.card-body` item, the card title and subtitle are aligned nicely.
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -66,7 +66,7 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
 `.card-img-top` places an image to the top of the card. With `.card-text`, text can be added to the card. Text within `.card-text` can also be styled with the standard HTML tags.
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   {{< placeholder width="100%" height="180" class="card-img-top" text="Image cap" >}}
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -79,7 +79,7 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
 Create lists of content in a card with a flush list group.
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   <ul class="list-group list-group-flush">
     <li class="list-group-item">Cras justo odio</li>
     <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -89,7 +89,7 @@ Create lists of content in a card with a flush list group.
 {{< /example >}}
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   <div class="card-header">
     Featured
   </div>
@@ -106,7 +106,7 @@ Create lists of content in a card with a flush list group.
 Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   {{< placeholder width="100%" height="180" class="card-img-top" text="Image cap" >}}
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
@@ -242,7 +242,7 @@ Use our handful of [available sizing utilities]({{< docsref "/utilities/sizing" 
 Use custom CSS in your stylesheets or as inline styles to set a width.
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   <div class="card-body">
     <h5 class="card-title">Special title treatment</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -256,7 +256,7 @@ Use custom CSS in your stylesheets or as inline styles to set a width.
 You can quickly change the text alignment of any card—in its entirety or specific parts—with our [text align classes]({{< docsref "/utilities/text#text-alignment" >}}).
 
 {{< example >}}
-<div class="card" style="width: 18rem;">
+<div class="card col-md-6 col-lg-5">
   <div class="card-body">
     <h5 class="card-title">Special title treatment</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
